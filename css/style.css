@@ -25,3 +25,8 @@ header h1{
 header p {
     font-size: 20px;
 }
+
+.pads{
+    background: lightblue;
+    width: 100%;
+}
