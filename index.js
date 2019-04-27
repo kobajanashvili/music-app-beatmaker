@@ -4,11 +4,11 @@ window.addEventListener('load', () => {
 
 
     // Lets get going with sound here !!!
-    pads.forEach(pad => {
+    pads.forEach((pad, index) => {
         pad.addEventListener('click', function(){
-            sounds[3];
+            sounds[index].currentTime = 0;
+            sounds[index].play();
         });
     });
 });
 
-console.log(sounds);
