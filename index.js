@@ -7,7 +7,7 @@ window.addEventListener('load', () => {
         "#d36060",
         "#c460d3",
         "#d3d160",
-        "#ea12f1",
+        "#16f3b1",
         "#15a7cc"
     ];
 
